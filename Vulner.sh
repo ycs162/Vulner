@@ -10,12 +10,12 @@
 #1. Discover live hosts on LAN network that the script is executed on.
 #2. User able to input any IP to exclude from the enumeration and weak password check.
 #3. The script will check whether the IP entered by user exists in the discovered LAN IP.
-#3. Proceed to scan for open ports on found hosts using Nmap.
-#4. User to choose username and password list for password checking OR generate a password list using cupp.
-#5. The script will check whether the file exists before proceeding to next step.
-#6. Check for weak passwords using hydra, on the first login service(ftp, ssh, telnet) found.
-#7. All results will be saved into reports that can be later accessed by user.
-#8. At the end of script a general statistics will be printed. User will be given a choice to view report on Text Editor.
+#4. Proceed to scan for open ports on found hosts using Nmap.
+#5. User to choose username and password list for password checking OR generate a password list using cupp.
+#6. The script will check whether the file exists before proceeding to next step.
+#7. Check for weak passwords using hydra, on the first login service(ftp, ssh, telnet) found.
+#8. All results will be saved into reports that can be later accessed by user.
+#9. At the end of script a general statistics will be printed. User will be given a choice to view report on Text Editor.
 
 #Basic actions are mention above each function.
 #For detail explanation of the code, please refer to pdf file that is zipped together.
